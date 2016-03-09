@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    int i;
+    for(i=0;i<N;i++)
+    {
+        double r;
+        scanf("%lf",&r);
+        double k;
+        k = pow(r,0.5);
+        printf("%d\n", (int)(k+0.5));
+    }
+    return 0;
+}
